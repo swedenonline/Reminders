@@ -1,0 +1,62 @@
+* I have used my own developed MVC structure purely based on OOPS concepts.
+
+
+---------------
+Technology used
+---------------
+
+Programming language  : php5, javascript, jquery
+Database 	      : mysql
+Server  	      : Apache
+Tools		      : Xampp for Windows Version 1.7.2
+			
+
+URL : htttp://localhost/Reminders/
+
+
+
+--------------------
+Directory structure
+--------------------
+
+
+
+1- Reminders/css
+=================
++ style.css
+
+css folder contains style sheet for template files
+
+2- Reminders/database
+======================
++ connection.php
++ mysql.php
++ reminder_db.sql
+
+- connection file contains database connection strings. you can change it according to your own database server information.
+- reminder_db.sql contains database script, either import it or copy-paste in using phpmyadmin.
+
+3- Reminders/helper
+===================
+- contains jquery and php helper files
+
+4- Reminders/images
+===================
+
+5- Reminders/mdoel
+==================
++ reminder.php
+
+- contains reminder class 
+
+6- Reminders/view
+=================
+- contains template files of application.
+
+7- Controller files: Reminders/
+===============================
+
++ add_reminder controller
++ edit_reminder controller
++ index controller
++ reminder controller
